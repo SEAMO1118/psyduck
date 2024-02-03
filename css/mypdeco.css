@@ -1,0 +1,39 @@
+h1{
+    color:yellow;
+    font-size: 20px;
+}
+
+.Drive{
+    background-color: yellow;
+    width: 450px;
+    height: 60px;
+    padding: 10px 0px 50px 0px;/*3指定: 上 左右 下 4指定: 上 右 下 左*/
+    border: 3px solid dotted blue; /*border- top,right,left,bottom*/
+}
+
+.List{
+    background-color: red;
+    width: 450px;
+    height: 60px;
+    margin: 50px 0px 0px 20px;/*3指定: 上 左右 下 4指定: 上 右 下 左*/
+}
+
+.Dtools{
+    background-color: blue;
+    width: 450px;
+    height: 60px;
+    margin: 50px 0px 0px 20px;/*3指定: 上 左右 下 4指定: 上 右 下 左*/
+}
+
+ul{
+    border: 5px solid blue;
+    width: 250px;
+    padding: 10px;
+    list-style-image: url(../img/psy1.gif);/*リストマーカーの種類変えられる noneで消える！*/
+    list-style-position: inside;
+}
+
+li{
+    border-bottom: 1px dotted black;
+    background-color: yellow;
+}
