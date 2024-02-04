@@ -15,22 +15,22 @@ header{
     justify-content: space-between;
 }
 
-h1{
+header h1{
     font-size: 30px;
     color: white;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: darkolivegreen;
+    border-bottom: 2px solid white;
 }
 
 header ul{
-    list-style-type: none;
     color: white;
 }
 
 header a{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: darkolivegreen; 
 }
 
@@ -55,56 +55,44 @@ nav li{
 }
 
 .container{
-    width: 800px;
-    margin: 0px auto;
+    width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
-.item01{
-    width: 70%;
+.main_container h1{
+    background-image: url(../img/psy1.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 20PX;
 }
 
-.item01 h2{
-    text-align: center;
-    border-bottom: 1px solid navy;
-}
-
-.item01 img{
-    width: 99%;
-}
-
-.item02{
-    width: 22%;
-}
-
-.item02 h2{
-    font-size: 17px;
-    text-align: center;
-}
-
-.item02 ul{
+.tools{
+    width: 100%;
     list-style-type: none;
-    padding-left: 0px;
+
 }
 
-.item02 li{
-    border-bottom: 1px dotted black;
+.List{
+    width: 100%;
+    flex-direction: column;
+    list-style-type: none;
 }
 
-.article_container{
-    display: flex;   
+.List a{
+    font-size: 20PX;
+    color: black;
 }
 
-.article_item{
-    width: 47%;
+.DXAI{
+    width: 100%;
+    flex-direction: column;
+    list-style-type: none;
 }
 
-.article_item img{
-    width: 99%;
-}
-
-.article_item p{
-    text-align: center;
+.DXAI a{
+    font-size: 20PX;
+    color: black;
 }
 
 footer{
