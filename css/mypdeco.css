@@ -39,6 +39,18 @@ header ul li{
     display: inline-block;
 }
 
+header h2{
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+header h3{
+    font-size: 25px;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
 nav ul{
     list-style-type: none;
     text-align: center;
