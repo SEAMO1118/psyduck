@@ -4,9 +4,10 @@ body{
 header{
     width: 100%;
     height: 320px;
-    background: url(../img/img_psySP.jpg);
+    background: url(../img/img_psySP2.jpg);
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 .head_container{
@@ -50,6 +51,11 @@ nav li{
     border-left: 1px dotted black;
 }
 
+nav ul img{
+    height: 50px;
+    margin-bottom: -12px;
+}
+
 .last_child{
     border-right: 1px dotted black;
 }
@@ -64,13 +70,23 @@ nav li{
     background-image: url(../img/psy1.gif);
     background-repeat: no-repeat;
     background-size: contain;
+    padding: 5px 0px 0px 38px;
     font-size: 20PX;
 }
 
 .tools{
     width: 100%;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
+.tools img{
+    height: 100PX;
+    border: 5px double #dbdf00;
+    border-radius: 5px;
 }
 
 .List{
