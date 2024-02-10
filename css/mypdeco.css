@@ -17,22 +17,31 @@ header{
 }
 
 header h1{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     font-size: 30px;
-    color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: darkolivegreen;
-    border-bottom: 2px solid white;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: rgb(238, 238, 161);
+    border-bottom: 2px solid rgb(238, 255, 0);
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 
 header ul{
     color: white;
+
 }
 
 header a{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     font-size: 20px;
-    color: white;
-    -webkit-text-stroke-width: 0.4px;
-    -webkit-text-stroke-color: darkolivegreen; 
+    color: 238, 238, 161;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(238, 238, 161); 
+}
+
+header li:hover{
+    opacity: 0.4;
 }
 
 header ul li{
@@ -40,15 +49,22 @@ header ul li{
 }
 
 header h2{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     color: white;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    padding-top: 0.5%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
+
 header h3{
     font-size: 25px;
     color: white;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    line-height:10%;
 }
 
 nav ul{
@@ -61,6 +77,11 @@ nav li{
     width: 150px;
     text-align: center;
     border-left: 1px dotted black;
+}
+
+nav a:hover{
+    border: 2px double #000000;
+    opacity: 0.5;
 }
 
 nav ul img{
@@ -86,6 +107,22 @@ nav ul img{
     font-size: 20PX;
 }
 
+.main_container h2{
+    background-image: url(../img/psy1.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px 0px 0px 38px;
+    font-size: 20PX;
+}
+
+.main_container h3{
+    background-image: url(../img/psy1.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px 0px 0px 38px;
+    font-size: 20PX;
+}
+
 .tools{
     width: 100%;
     list-style-type: none;
@@ -101,6 +138,11 @@ nav ul img{
     border-radius: 5px;
 }
 
+.tools img:hover{
+    opacity: 0.2;
+    border: 5px double #000000;
+}
+
 .List{
     width: 100%;
     flex-direction: column;
@@ -110,6 +152,10 @@ nav ul img{
 .List a{
     font-size: 20PX;
     color: black;
+}
+
+.List a:hover{
+    opacity: 0.4;
 }
 
 .DXAI{
@@ -123,6 +169,11 @@ nav ul img{
     color: black;
 }
 
+.DXAI a:hover{
+    opacity: 0.4;
+}
+
+
 footer{
     width: 100%;
     background-color: #ffffe0;
@@ -131,6 +182,13 @@ footer{
 }
 
 footer h2{
+    color: black;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-size: 30px;
     text-align: center;
     font-size: 16px;
+}
+
+footer h2:hover{
+    opacity: 0.4;
 }
