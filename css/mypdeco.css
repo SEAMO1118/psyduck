@@ -8,6 +8,7 @@ header{
     background-size: cover;
     background-position-x: center;
     background-position-y: top;
+    letter-spacing: 5px;
 }
 
 .head_container{
@@ -18,7 +19,7 @@ header{
 
 header h1{
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 2.5px;
     -webkit-text-stroke-color: rgb(238, 238, 161);
@@ -29,15 +30,15 @@ header h1{
 
 header ul{
     color: white;
-
 }
 
 header a{
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     color: 238, 238, 161;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: rgb(238, 238, 161); 
+    letter-spacing: 2px;
 }
 
 header li:hover{
@@ -46,25 +47,6 @@ header li:hover{
 
 header ul li{
     display: inline-block;
-}
-
-header h2{
-    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    color: white;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    padding-top: 0.5%;
-    margin-top: 0%;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-}
-
-header h3{
-    font-size: 25px;
-    color: white;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    line-height:10%;
 }
 
 nav ul{
