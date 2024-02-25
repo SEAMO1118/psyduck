@@ -140,18 +140,18 @@ nav ul img{
     opacity: 0.4;
 }
 
-.DXAI{
+.Memo{
     width: 100%;
     flex-direction: column;
     list-style-type: none;
 }
 
-.DXAI a{
+.Memo a{
     font-size: 20PX;
     color: black;
 }
 
-.DXAI a:hover{
+.Memo a:hover{
     opacity: 0.4;
 }
 
