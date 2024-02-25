@@ -19,7 +19,7 @@ header{
 
 header h1{
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 2.5px;
     -webkit-text-stroke-color: rgb(238, 238, 161);
@@ -34,7 +34,7 @@ header ul{
 
 header a{
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: 238, 238, 161;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: rgb(238, 238, 161); 
