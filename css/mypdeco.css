@@ -41,13 +41,8 @@ header a{
     letter-spacing: 2px;
 }
 
-header h2{
-    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-    font-size: 30px;
-    color: 238, 238, 161;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: white;
-    letter-spacing: 2px;
+header a:hover{
+    opacity: 0.4;
 }
 
 header li:hover{
