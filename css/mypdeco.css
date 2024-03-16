@@ -32,12 +32,21 @@ header ul{
     color: white;
 }
 
-header a{
+header a1{
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     font-size: 30px;
     color: 238, 238, 161;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: rgb(238, 238, 161); 
+    letter-spacing: 2px;
+}
+
+header a2{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-size: 30px;
+    color: 238, 238, 161;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
     letter-spacing: 2px;
 }
 
